@@ -1,0 +1,79 @@
+/*Base code*/
+* {
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#menu {
+	position: relative;
+}
+
+#menu > section {
+	margin-right: auto;
+  	margin-left: auto;
+	float: left;
+}
+
+article {
+	margin: 20px;
+	border: 5px solid;
+	background-color: gray;
+}
+
+h2 {
+	text-align: center;
+	margin: 0px;
+	padding: 3px 40px 3px 40px;
+	border: 2px solid;
+	float: right;
+}
+
+#article1 h2 {
+	background-color: maroon;
+}
+#article2 h2 {
+	background-color: red;
+	color: white;
+}
+#article3 h2 {
+	background-color: lightyellow;
+}
+
+p {
+	padding: 10px;
+	text-align: left;
+	clear: right;
+}
+
+
+
+
+/*Media queries*/
+/*For Desktop width 992px*/
+@media (min-width: 992px){
+	#menu > section {
+		width: 33.33%;
+	}
+}
+/*For Tablet between 768px and 991px*/
+@media (min-width: 768px) and (max-width: 991px){
+	#section1,#section2 {
+		width: 50%;
+	}
+
+	#section3 {
+		width: 100%;
+	}
+}
+
+/*For Mobile less than 767px*/
+@media (max-width: 767px){
+	#menu > section {
+		width: 100%;
+	}
+}
