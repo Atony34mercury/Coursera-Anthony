@@ -1,0 +1,71 @@
+/*Base code*/
+* {
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Acme', sans-serif;
+}
+
+/* Nav Bar */
+.navbar {
+	border: 2px solid ;
+	text-decoration: none;
+}
+
+.navbar .nav-item {
+	border: 1px solid;
+	font-size: 1.5em;
+}
+
+.h1{
+	font-size: 3em;
+	margin-left: 10px;
+}
+
+/* Main Content  */
+#menu {
+	position: relative;
+}
+
+#menu > section {
+	margin-right: auto;
+  	margin-left: auto;
+	float: left;
+}
+
+article {
+	margin: 20px;
+	border: 5px solid;
+	background-color: gray;
+}
+
+h2 {
+	text-align: center;
+	margin: 0px;
+	padding: 3px 40px 3px 40px;
+	border: 2px solid;
+	float: right;
+}
+
+#article1 h2 {
+	background-color: maroon;
+}
+#article2 h2 {
+	background-color: red;
+	color: white;
+}
+#article3 h2 {
+	background-color: lightyellow;
+}
+
+p {
+	padding: 10px;
+	text-align: left;
+	clear: right;
+}
+
+
+
+
